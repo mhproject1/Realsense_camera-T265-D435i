@@ -1,0 +1,143 @@
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+[information]
+
+T265 현지화 맵 API 가져 오기 / 내보내기 # 3324
+  https://github.com/IntelRealSense/librealsense/pull/3324
+  https://gist.github.com/ev-mp/8d33fa6054f6e62639eab28da932f5e7
+
+인텔 ® RealSense ™ Visual SLAM 및 T265 추적 카메라 소개
+  https://dev.intelrealsense.com/docs/intel-realsensetm-visual-slam-and-the-t265-tracking-camera
+  https://www.intelrealsense.com/tracking-camera-t265/
+
+Sample Code for Intel® RealSense™ cameras
+  https://dev.intelrealsense.com/docs/code-samples
+
+Visual navigation for wheeled autonomous robots – using Intel® RealSense™ Tracking Camera T265.
+  https://www.youtube.com/watch?v=62vm0_RZ1nU
+  
+Python Setup for Intel RealSense T265 with Jetson Nano and Ubuntu 18.04
+  https://www.youtube.com/watch?v=EeT-pzM8n-o
+
+dpkg/lock 오류
+  https://enant.tistory.com/18
+
+pip pyrealsense2
+  https://github.com/IntelRealSense/librealsense/issues/3062
+
+로보 카에 Intel Realsense T265 및 Jetson Nano 사용
+  https://diyrobocars.com/2019/12/03/using-the-intel-realsense-t265-and-the-jetson-nano-for-a-robocar/
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+[install list]
+
+install for ubuntu kernel
+  http://www.yourownlinux.com/2018/12/how-to-install-linux-kernel-4-16-0.html
+  http://linuxg.net/how-to-install-kernel-4-15-18-on-ubuntu/
+
+ubuntu pip 설치
+  http://w3devlabs.net/wp/?p=24350
+
+ubuntu git 설치
+  https://coding-factory.tistory.com/502
+
+librealsense 설치
+  https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md
+  https://sunlab0623.tistory.com/29
+  https://github.com/IntelRealSense/librealsense/blob/development/doc/distribution_linux.md
+
+우분투용 장치관리자 설치
+  https://redsea23.tistory.com/324
+  https://qastack.kr/ubuntu/887264/does-ubuntu-have-a-device-manager-equivalent-and-what-is-an-easy-way-to-acces
+  
+우분투 파이선 설치
+  https://somjang.tistory.com/entry/PythonUbuntu%EC%97%90-Python-37-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+  https://devlog.jwgo.kr/2019/06/05/ctypes-error-when-installing-python37/
+  https://pooheaven81.tistory.com/147
+  https://snepbnt.tistory.com/55
+  https://harryp.tistory.com/820
+  https://stackoverflow.com/questions/48066517/python-pandas-pd-read-excel-giving-importerror-install-xlrd-0-9-0-for-excel/56002873
+
+CMake 설치
+  https://eehoeskrap.tistory.com/397
+  https://github.com/VCVRack/Rack/issues/771
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+[idea & code example]
+
+idea
+  https://github.com/IntelRealSense/librealsense
+  https://www.youtube.com/watch?v=ZbO61CKnxmc
+  https://www.intelrealsense.com/visual-inertial-tracking-case-study
+  https://www.intel.co.kr/content/www/kr/ko/support/articles/000032750/emerging-technologies/intel-realsense-technology.html
+  
+python example code
+  http://docs.ros.org/kinetic/api/librealsense2/html/dir_bb17a0c135d3f44b7ea9e1d981b36ea1.html
+  https://intelrealsense.github.io/librealsense/doxygen/annotated.html
+  https://pastebin.com/8c5B5aYw
+ 
+opencv example
+  http://www.gisdeveloper.co.kr/?p=6354 
+  https://docs.opencv.org/3.4/d2/d85/classcv_1_1StereoSGBM.html
+  https://076923.github.io/posts/Python-tkinter-32/
+  https://zzsza.github.io/data/2018/01/23/opencv-1/
+
+include realsense cross platform api (import pyrealsense2)
+  https://aur.archlinux.org/packages/python-pyrealsense2-git/
+
+matplotlib
+  https://wikidocs.net/23242
+  https://zzsza.github.io/development/2018/08/24/data-visualization-in-python/
+  https://www.delftstack.com/ko/howto/matplotlib/how-to-plot-in-real-time-using-matplotlib/
+
+tkinter
+  https://076923.github.io/posts/Python-tkinter-1/
+  https://076923.github.io/posts/Python-tkinter-15/
+
+tkinter 버튼
+  https://076923.github.io/posts/Python-tkinter-3/
+
+tkinter 배치 
+  https://076923.github.io/posts/Python-tkinter-12/
+
+Tkinter 메인 창에 플롯 배치
+  https://www.it-swarm-ko.tech/ko/python/python%ec%9d%98-tkinter-%eb%a9%94%ec%9d%b8-%ec%b0%bd%ec%97%90-%ed%94%8c%eb%a1%af-%eb%b0%b0%ec%b9%98/1054567751/
+
+tkinter 배경설정
+  https://opentutorials.org/module/3181/18797
+
+tkinter update
+  https://stackoverrun.com/ko/q/12716890
+  https://www.it-swarm-ko.tech/ko/python/tkinter-%ec%9d%b4%ed%95%b4-mainloop/1052811104/
+
+tkinter create location setting
+  https://stackoverrun.com/ko/q/6102651
+
+3d 플로팅
+  https://kongdols-room.tistory.com/77
+  https://www.galaxysofts.com/new/python-creating-a-real-time-3d-plot/
+
+opencv create location setting
+  https://copycoding.tistory.com/153
+
+bag file to avi
+  https://darkpgmr.tistory.com/46
+  https://shjz.tistory.com/26
+  https://github.com/UnaNancyOwen/RealSense2Sample
+  https://github.com/Bammuri/Lab_project/blob/master/%5Bcode%5DRealsence_multi_record/realsense.cpp
+
+t265 api 사용
+  https://github.com/IntelRealSense/librealsense/wiki/API-How-To
+  https://markku.ai/post/realsense-t265/
+  https://github.com/markku-ai/realsense-t265/blob/master/defishing/capture_calib.py
+
+d435i 연결
+  https://ng1004.tistory.com/?page=3
+
+
+
+
+
+
+
+
+
